@@ -1,0 +1,133 @@
+#container {
+	box-shadow:2px 2px 12px black;
+	}
+	p {
+	margin:0;
+	padding:0;
+	}
+	#details-rt {
+	float:right;
+	height:770px;
+	width: 60%;
+	/* //margin-top:50px; */
+	background-color: #ffffff;
+	border-radius: 50px 0px 0px 0px;
+	}
+	#details-lft {
+	float:left;
+	height:750px;
+	width: 40%;
+	/* //margin-top:50px; */
+	background-color: #ffffff;
+	/* //border-radius: 0px 0px 60px 0px; */
+	}
+	#dv-tp {
+	/* //margin-top:15px; */
+	margin-bottom:0;
+	width:100%;
+	height:80px;
+	background-color: #f0f0f0;
+	}
+	#lft-up {
+	float:left;
+	height:700px;
+	width: 100%;
+	background-color: #f0f0f0;
+	/* //border-radius: 0px 0px 60px 0px; */
+	}
+	#lft-btm {
+	float:left;
+	height:50px;
+	width: 100%;
+	margin-bottom:0;
+	background-color: #f0f0f0;
+	border-radius: 0px 0px 60px 0px;
+	}
+	#profile-img {
+	float:none;
+	margin:auto;
+	margin-top:30px;
+	height: 30%;
+	width:80%;
+	background-color: #fcfcfc;
+	background-image: url('abash.jpg');
+	border: 4px solid #ababab;
+	border-radius: 50%;
+   } 
+   #profile-img img{
+	position: relative;
+	border-radius: 50%;
+	height: 100%;
+	width: 100%;
+
+
+}
+	
+	#rt-content {
+	margin:10px;
+	float:left;
+	width:90%;
+	}
+	hr {
+	margin:0;
+	padding:0;
+	border: 1px solid blue;
+	}
+	.edu{
+		position: relative;top: -15px;
+		margin:8px;
+		font-size:14px;
+	}
+	.work{
+        position: relative;
+		top:-150px;
+		font-size:14px;
+	}
+	.skill{
+		position: relative;top: -170px;
+		font-size:14px;
+	}
+	.graph{
+		/* border: 1px solid black; */
+		position: relative;
+		top:-140px;
+		left:70px;
+		height: 139px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		text-align: center;
+		width: 300px;
+		color: wheat;
+		font-size: 10px;
+	}
+	.graph .box1{
+		height: 10px;
+		width: 35%;
+		background-color: rgb(18, 166, 224);
+		border: none;
+	}
+	.graph .box2{
+		height: 10px;
+		width: 75%;
+		background-color: rgb(18, 166, 224);
+		border: none;
+	}
+	.graph .box3{
+		height: 10px;
+		width: 25%;
+		background-color: rgb(18, 166, 224);
+		border: none;
+	}
+	.graph .box4{
+		height: 10px;
+		width: 100%;
+		background-color: rgb(18, 166, 224);
+		border: none;
+	}
+	.graph .box5{
+		height: 10px;
+		width: 37%;
+		background-color: rgb(18, 166, 224);
+		border: none;
+	}
